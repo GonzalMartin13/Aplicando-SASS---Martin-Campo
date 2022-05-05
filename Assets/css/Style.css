@@ -1,0 +1,42 @@
+body {
+  background-color: rgba(87, 82, 82, 0.966);
+}
+
+main {
+  width: 98%;
+  height: fit-content;
+  margin: 10px 5px 5px;
+  margin-left: 1%;
+  color: #FFD452;
+  background-color: rgba(240, 248, 255, 0.205);
+  padding: 3pc 3pc 5pc;
+}
+
+main section form {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  text-align: center;
+  font-size: larger;
+}
+
+nav {
+  color: #FFD452;
+  border-bottom: 2px solid whitesmoke;
+  margin: 10px 5px 5px;
+}
+
+footer {
+  background-color: black;
+  height: auto;
+  margin: 10px 5px 5px;
+  border-top: 2px solid whitesmoke;
+  color: whitesmoke;
+}
+
+footer div {
+  padding-top: 2rem;
+  text-align: center;
+  justify-content: space-between;
+}
+/*# sourceMappingURL=style.css.map */

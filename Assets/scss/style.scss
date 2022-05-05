@@ -1,0 +1,52 @@
+$Divisor: 2px solid whitesmoke;
+$ColorLetra: #FFD452;
+$LetraFooter: whitesmoke;
+$Margenes: 10px 5px 5px;
+
+body{
+    background-color: rgba(87, 82, 82, 0.966);
+}
+
+
+main{
+    // border: $Divisor;
+    width: 98%;
+    height: fit-content;
+    margin: $Margenes;
+    margin-left: 1%;
+    color: $ColorLetra;
+    background-color: rgba(240, 248, 255, 0.205);
+    padding: 3pc 3pc 5pc;
+
+    section{
+           
+        form{
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        text-align: center;
+        font-size: larger;
+        }
+    }
+}
+
+nav{
+    color: $ColorLetra;
+    border-bottom: $Divisor;
+    margin: $Margenes;
+
+}
+
+footer{
+    background-color: black;
+    height: auto;
+    margin: $Margenes;
+    border-top: $Divisor;
+    color: $LetraFooter;
+    div{
+        padding-top: 2rem;
+        text-align: center;
+        justify-content: space-between;
+
+    }
+}
